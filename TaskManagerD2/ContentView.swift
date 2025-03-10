@@ -33,7 +33,7 @@ struct ContentView: View {
                     Button(action: addTask) {
                         Image(systemName: "plus")
                             .padding()
-                            .background(Color.purple)
+                            .background(Color("CustomColor"))
                             .foregroundColor(.white)
                             .clipShape(Circle())
                     }
@@ -65,6 +65,7 @@ struct ContentView: View {
             }
             //the title of the page
             .navigationTitle("To-Do List")
+            
             
             
         }
